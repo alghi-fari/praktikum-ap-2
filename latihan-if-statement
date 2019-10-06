@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char nama[20];
+    int umur;
+    cout << "Masukkan nama [maksimal 20 karakter] : ";
+    cin >> nama;
+    cout << "Masukkan Umur : ";
+    cin >> umur;
+    cout << "------------------------------" << endl;
+    cout << "Nama : " << nama <<endl;
+    cout << "Umur : " << umur << " tahun" <<endl;
+        
+    if(umur >= 17) {
+        cout << "Selamat kamu diterima di Universitas Paramadina" << endl;
+        return 0;
+    } else {
+        cout << "Maaf kamu tidak diterima di Universitas Paramadina" << endl;
+        return 0;
+    }
+}
